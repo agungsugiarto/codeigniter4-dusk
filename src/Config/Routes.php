@@ -10,5 +10,7 @@ if (ENVIRONMENT !== 'production') {
         $routes->get('/logout/(:any)', 'Fluent\Dusk\Http\Controllers\UserController::logout/$1', ['as' => 'dusk.logout']);
 
         $routes->get('/user/(:any)', 'Fluent\Dusk\Http\Controllers\UserController::user/$1', ['as' => 'dusk.user']);
+
+        $routes->get('home', '', ['as' => 'home']);
     });
 }

@@ -2,6 +2,7 @@
 
 namespace Fluent\Dusk\Tests\Concerns;
 
+// use CodeIgniter\Router\RouteCollection as RouterRouteCollection;
 use Illuminate\Container\Container;
 use Illuminate\Http\Request;
 use Illuminate\Routing\RouteCollection;
@@ -26,5 +27,19 @@ trait SwapsUrlGenerator
         //         }
         //     };
         // });
+
+        // return new class extends RouterRouteCollection
+        // {
+        //     public function reverseRoute(string $search, ...$params)
+        //     {
+        //         $route = '/'.$search.'/'.implode('/', $params);
+
+        //         if (true) {
+        //             $route = 'http://www.google.com'.$route;
+        //         }
+
+        //         return $route;
+        //     }
+        // };
     }
 }

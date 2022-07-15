@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2em;
+                background-color: #ffffff;
+                color: #000000;
+            }
+
+            body > ul > li {
+                font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+                font-size: 2em;
+            }
+
+            h2 {
+                font-family: Tahoma, Helvetica, Arial;
+                font-size: 3em;
+            }
+
+            ul {
+                list-style: none;
+                margin-bottom: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="Fluent\Dusk\Tests\BrowserTest">Browser (Fluent\Dusk\Tests\Browser)</h2>
+        <ul>
+            <li style="color: #ef2929;">❌ Visit</li>
+            <li style="color: #ef2929;">❌ Blank page</li>
+            <li style="color: #555753;">✓ Visit with page object</li>
+            <li style="color: #555753;">✓ On method sets current page</li>
+            <li style="color: #ef2929;">❌ Refresh method</li>
+            <li style="color: #555753;">✓ With method</li>
+            <li style="color: #555753;">✓ With method with page</li>
+            <li style="color: #555753;">✓ Within method</li>
+            <li style="color: #555753;">✓ Within method with page</li>
+            <li style="color: #555753;">✓ Elsewhere method</li>
+            <li style="color: #555753;">✓ Page macros</li>
+            <li style="color: #ef2929;">❌ Retrieve console</li>
+            <li style="color: #ef2929;">❌ Disable console</li>
+            <li style="color: #555753;">✓ Screenshot</li>
+            <li style="color: #555753;">✓ Screenshot in subdirectory</li>
+            <li style="color: #555753;">✓ Can disable fit on failure</li>
+            <li style="color: #555753;">✓ Can enable fit on failure</li>
+            <li style="color: #555753;">✓ Source code can be stored</li>
+        </ul>
+        <h2 id="Fluent\Dusk\Tests\ChromeProcessTest">Chrome Process (Fluent\Dusk\Tests\ChromeProcess)</h2>
+        <ul>
+            <li style="color: #555753;">✓ Build process with custom driver</li>
+            <li style="color: #555753;">✓ Build process for windows</li>
+            <li style="color: #555753;">✓ Build process for darwin</li>
+            <li style="color: #555753;">✓ Build process for darwin intel</li>
+            <li style="color: #555753;">✓ Build process for darwin arm</li>
+            <li style="color: #555753;">✓ Build process for linux</li>
+            <li style="color: #555753;">✓ Invalid path</li>
+        </ul>
+        <h2 id="Fluent\Dusk\Tests\ComponentTest">Component (Fluent\Dusk\Tests\Component)</h2>
+        <ul>
+            <li style="color: #555753;">✓ Within method triggers assertion</li>
+            <li style="color: #555753;">✓ Resolver prefix</li>
+            <li style="color: #555753;">✓ Component macros</li>
+            <li style="color: #555753;">✓ Component elements</li>
+            <li style="color: #555753;">✓ Root selector can be dusk hook</li>
+            <li style="color: #555753;">✓ Root selector can be element alias</li>
+            <li style="color: #555753;">✓ Component overrides page macros</li>
+        </ul>
+        <h2 id="Fluent\Dusk\Tests\Concerns\InteractsWithElementsTest">Interacts With Elements (Fluent\Dusk\Tests\Concerns\InteractsWithElements)</h2>
+        <ul>
+            <li style="color: #555753;">✓ Value with value with data set #0</li>
+            <li style="color: #555753;">✓ Value with value with data set #1</li>
+            <li style="color: #555753;">✓ Value with value with data set #2</li>
+            <li style="color: #555753;">✓ Value with value with data set #3</li>
+            <li style="color: #555753;">✓ Value with value with data set #4</li>
+            <li style="color: #555753;">✓ Value with value with data set #5</li>
+            <li style="color: #555753;">✓ Value with value with data set #6</li>
+            <li style="color: #555753;">✓ Value with value with data set #7</li>
+            <li style="color: #555753;">✓ Value without value</li>
+        </ul>
+        <h2 id="Fluent\Dusk\Tests\ElementResolverTest">Element Resolver (Fluent\Dusk\Tests\ElementResolver)</h2>
+        <ul>
+            <li style="color: #555753;">✓ Resolve for typing resolves by id</li>
+            <li style="color: #555753;">✓ Resolve for typing falls back to selectors without id</li>
+            <li style="color: #555753;">✓ Resolve for selection resolves by id</li>
+            <li style="color: #555753;">✓ Resolve for selection falls back to selectors without id</li>
+            <li style="color: #555753;">✓ Resolve for radio selection resolves by id</li>
+            <li style="color: #555753;">✓ Resolve for radio selection falls back to selectors without id</li>
+            <li style="color: #555753;">✓ Resolve for radio selection throws exception without id and without value</li>
+            <li style="color: #555753;">✓ Resolve for checking resolves by id</li>
+            <li style="color: #555753;">✓ Resolve for checking falls back to selectors without id</li>
+            <li style="color: #555753;">✓ Resolve for attachment resolves by id</li>
+            <li style="color: #555753;">✓ Resolve for attachment falls back to selectors without id</li>
+            <li style="color: #555753;">✓ Resolve for field resolves by id</li>
+            <li style="color: #555753;">✓ Resolve for field falls back to selectors without id</li>
+            <li style="color: #555753;">✓ Format correctly formats selectors</li>
+            <li style="color: #555753;">✓ Find by id with colon</li>
+        </ul>
+        <h2 id="Fluent\Dusk\Tests\MakesAssertionsTest">Makes Assertions (Fluent\Dusk\Tests\MakesAssertions)</h2>
+        <ul>
+            <li style="color: #555753;">✓ Assert title</li>
+            <li style="color: #555753;">✓ Assert title contains</li>
+            <li style="color: #555753;">✓ Assert checked and element is selected</li>
+            <li style="color: #555753;">✓ Assert checked and element is not selected</li>
+            <li style="color: #555753;">✓ Assert not checked and element is selected</li>
+            <li style="color: #555753;">✓ Assert not checked and element is not selected</li>
+            <li style="color: #555753;">✓ Assert radio selected and element is selected</li>
+            <li style="color: #555753;">✓ Assert radio selected and element is not selected</li>
+            <li style="color: #555753;">✓ Assert radio not selected and element is selected</li>
+            <li style="color: #555753;">✓ Assert radio not selected and element is not selected</li>
+            <li style="color: #555753;">✓ Assert selected and element is selected</li>
+            <li style="color: #555753;">✓ Assert selected and element is not selected</li>
+            <li style="color: #555753;">✓ Assert not selected and element is selected</li>
+            <li style="color: #555753;">✓ Assert not selected and element is not selected</li>
+            <li style="color: #555753;">✓ Assert select has options and option exists</li>
+            <li style="color: #555753;">✓ Assert select has options and option empty</li>
+            <li style="color: #555753;">✓ Assert select missing options and option exists</li>
+            <li style="color: #555753;">✓ Assert select missing options and option empty</li>
+            <li style="color: #555753;">✓ Assert select has option and option exists</li>
+            <li style="color: #555753;">✓ Assert select has option and option empty</li>
+            <li style="color: #555753;">✓ Assert select missing option and option exists</li>
+            <li style="color: #555753;">✓ Assert select missing option and option empty</li>
+            <li style="color: #555753;">✓ Assert value using supported element</li>
+            <li style="color: #555753;">✓ Assert value is not using supported element</li>
+            <li style="color: #555753;">✓ Assert value using unsupported element</li>
+            <li style="color: #555753;">✓ Assert value is not using unsupported element</li>
+            <li style="color: #555753;">✓ Assert attribute</li>
+            <li style="color: #555753;">✓ Assert attribute contains</li>
+            <li style="color: #555753;">✓ Assert data attribute</li>
+            <li style="color: #555753;">✓ Assert aria attribute</li>
+            <li style="color: #555753;">✓ Assert visible and element is displayed</li>
+            <li style="color: #555753;">✓ Assert visible and element is not displayed</li>
+            <li style="color: #555753;">✓ Assert present</li>
+            <li style="color: #555753;">✓ Assert not present</li>
+            <li style="color: #555753;">✓ Assert missing and element is displayed</li>
+            <li style="color: #555753;">✓ Assert missing and element is not displayed</li>
+            <li style="color: #555753;">✓ Assert dialog opened</li>
+            <li style="color: #555753;">✓ Assert enabled</li>
+            <li style="color: #555753;">✓ Assert disabled</li>
+            <li style="color: #555753;">✓ Assert button enabled</li>
+            <li style="color: #555753;">✓ Assert button disabled</li>
+            <li style="color: #555753;">✓ Assert focused</li>
+            <li style="color: #555753;">✓ Assert not focused</li>
+            <li style="color: #555753;">✓ Assert vue</li>
+            <li style="color: #555753;">✓ Assert vue with array</li>
+            <li style="color: #555753;">✓ Assert vue is not</li>
+            <li style="color: #555753;">✓ Assert vue is not with array</li>
+            <li style="color: #555753;">✓ Assert vue contains formats vue prop query</li>
+            <li style="color: #555753;">✓ Assert vue contains</li>
+            <li style="color: #555753;">✓ Assert vue contains with no result</li>
+            <li style="color: #555753;">✓ Assert script</li>
+            <li style="color: #555753;">✓ Assert see</li>
+            <li style="color: #555753;">✓ Assert dont see</li>
+            <li style="color: #555753;">✓ Assert see in</li>
+            <li style="color: #555753;">✓ Assert dont see in</li>
+            <li style="color: #555753;">✓ Assert see empty text in element with empty text</li>
+            <li style="color: #555753;">✓ Assert see empty text in element without empty text</li>
+            <li style="color: #555753;">✓ Assert dont see empty text in element with empty text</li>
+            <li style="color: #555753;">✓ Assert dont see empty text in element without empty text</li>
+            <li style="color: #555753;">✓ Assert source has</li>
+            <li style="color: #555753;">✓ Assert source missing</li>
+            <li style="color: #555753;">✓ Assert input value</li>
+            <li style="color: #555753;">✓ Assert input value is not</li>
+        </ul>
+        <h2 id="Fluent\Dusk\Tests\MakesUrlAssertionsTest">Makes Url Assertions (Fluent\Dusk\Tests\MakesUrlAssertions)</h2>
+        <ul>
+            <li style="color: #555753;">✓ Assert url is</li>
+            <li style="color: #555753;">✓ Assert scheme is</li>
+            <li style="color: #555753;">✓ Assert scheme is not</li>
+            <li style="color: #555753;">✓ Assert host is</li>
+            <li style="color: #555753;">✓ Assert host is not</li>
+            <li style="color: #555753;">✓ Assert port is</li>
+            <li style="color: #555753;">✓ Assert port is not</li>
+            <li style="color: #555753;">✓ Assert path begins with</li>
+            <li style="color: #555753;">✓ Assert path is</li>
+            <li style="color: #555753;">✓ Assert path is not</li>
+            <li style="color: #ef2929;">❌ Assert route is</li>
+            <li style="color: #555753;">✓ Assert query string has name</li>
+            <li style="color: #555753;">✓ Assert query string has name value</li>
+            <li style="color: #555753;">✓ Assert query string has name array value</li>
+            <li style="color: #555753;">✓ Assert query string missing</li>
+            <li style="color: #555753;">✓ Assert fragment is</li>
+            <li style="color: #555753;">✓ Assert fragment begins with</li>
+            <li style="color: #555753;">✓ Assert fragment is not</li>
+        </ul>
+        <h2 id="Fluent\Dusk\Tests\ProvidesBrowserTest">Provides Browser (Fluent\Dusk\Tests\ProvidesBrowser)</h2>
+        <ul>
+            <li style="color: #ef2929;">❌ Capture failures for with data set #0</li>
+            <li style="color: #ef2929;">❌ Store console logs for with data set #0</li>
+            <li style="color: #ef2929;">❌ Data</li>
+        </ul>
+        <h2 id="Fluent\Dusk\Tests\WaitsForElementsTest">Waits For Elements (Fluent\Dusk\Tests\WaitsForElements)</h2>
+        <ul>
+            <li style="color: #555753;">✓ When available</li>
+            <li style="color: #555753;">✓ Default wait time</li>
+            <li style="color: #555753;">✓ Default wait time can be overridden</li>
+            <li style="color: #ef2929;">❌ Wait using</li>
+            <li style="color: #555753;">✓ Wait using failure</li>
+            <li style="color: #ef2929;">❌ Can wait for location</li>
+            <li style="color: #ef2929;">❌ Can wait for a url location</li>
+            <li style="color: #ef2929;">❌ Can wait for a ssl url location</li>
+            <li style="color: #ef2929;">❌ Can wait for route</li>
+            <li style="color: #ef2929;">❌ Can wait for text</li>
+            <li style="color: #ef2929;">❌ Can wait for text to go missing</li>
+            <li style="color: #ef2929;">❌ Wait until missing</li>
+            <li style="color: #555753;">✓ Wait for text failure message containing a percent character</li>
+            <li style="color: #ef2929;">❌ Wait for an element to be enabled</li>
+            <li style="color: #ef2929;">❌ Wait for an element to be disabled</li>
+            <li style="color: #555753;">✓ Wait for text in</li>
+            <li style="color: #ef2929;">❌ Wait for link</li>
+            <li style="color: #ef2929;">❌ Wait until vue</li>
+            <li style="color: #ef2929;">❌ Wait until vue is not</li>
+            <li style="color: #ef2929;">❌ Wait for dialog</li>
+            <li style="color: #ef2929;">❌ Wait for reload</li>
+            <li style="color: #ef2929;">❌ Wait for event</li>
+        </ul>
+    </body>
+</html>

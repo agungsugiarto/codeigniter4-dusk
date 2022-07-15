@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Dusk\Concerns;
+namespace Fluent\Dusk\Concerns;
 
-use Laravel\Dusk\Browser;
+use Fluent\Dusk\Browser;
 use PHPUnit\Framework\Assert as PHPUnit;
 
 trait InteractsWithAuthentication
@@ -26,9 +26,9 @@ trait InteractsWithAuthentication
      */
     public function loginAs($userId, $guard = null)
     {
-        $userId = is_object($userId) && method_exists($userId, 'getKey') ? $userId->getKey() : $userId;
+        $userId = is_object($userId) && method_exists($userId, 'getAuthId') ? $userId->getAuthId() : $userId;
 
-        return $this->visit(rtrim(route('dusk.login', ['userId' => $userId, 'guard' => $guard], $this->shouldUseAbsoluteRouteForAuthentication())));
+        return $this->visit(rtrim(route_to('dusk.login', ['userId' => $userId, 'guard' => $guard])));
     }
 
     /**
@@ -39,7 +39,7 @@ trait InteractsWithAuthentication
      */
     public function logout($guard = null)
     {
-        return $this->visit(rtrim(route('dusk.logout', ['guard' => $guard], $this->shouldUseAbsoluteRouteForAuthentication()), '/'));
+        return $this->visit(rtrim(route_to('dusk.logout', ['guard' => $guard]), '/'));
     }
 
     /**
@@ -50,7 +50,7 @@ trait InteractsWithAuthentication
      */
     protected function currentUserInfo($guard = null)
     {
-        $response = $this->visit(route('dusk.user', ['guard' => $guard], $this->shouldUseAbsoluteRouteForAuthentication()));
+        $response = $this->visit(route_to('dusk.user', ['guard' => $guard]));
 
         return json_decode(strip_tags($response->driver->getPageSource()), true);
     }
@@ -99,7 +99,7 @@ trait InteractsWithAuthentication
         $currentUrl = $this->driver->getCurrentURL();
 
         $expected = [
-            'id' => $user->getAuthIdentifier(),
+            'id' => $user->getAuthIdColumn(),
             'className' => get_class($user),
         ];
 
@@ -109,15 +109,5 @@ trait InteractsWithAuthentication
         );
 
         return $this->visit($currentUrl);
-    }
-
-    /**
-     * Determine if route() should use an absolute path.
-     *
-     * @return bool
-     */
-    private function shouldUseAbsoluteRouteForAuthentication()
-    {
-        return config('dusk.domain') !== null;
     }
 }

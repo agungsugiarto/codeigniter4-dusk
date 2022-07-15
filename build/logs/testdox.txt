@@ -1,0 +1,180 @@
+Browser (Fluent\Dusk\Tests\Browser)
+ [ ] Visit
+ [ ] Blank page
+ [x] Visit with page object
+ [x] On method sets current page
+ [ ] Refresh method
+ [x] With method
+ [x] With method with page
+ [x] Within method
+ [x] Within method with page
+ [x] Elsewhere method
+ [x] Page macros
+ [ ] Retrieve console
+ [ ] Disable console
+ [x] Screenshot
+ [x] Screenshot in subdirectory
+ [x] Can disable fit on failure
+ [x] Can enable fit on failure
+ [x] Source code can be stored
+
+Chrome Process (Fluent\Dusk\Tests\ChromeProcess)
+ [x] Build process with custom driver
+ [x] Build process for windows
+ [x] Build process for darwin
+ [x] Build process for darwin intel
+ [x] Build process for darwin arm
+ [x] Build process for linux
+ [x] Invalid path
+
+Component (Fluent\Dusk\Tests\Component)
+ [x] Within method triggers assertion
+ [x] Resolver prefix
+ [x] Component macros
+ [x] Component elements
+ [x] Root selector can be dusk hook
+ [x] Root selector can be element alias
+ [x] Component overrides page macros
+
+Interacts With Elements (Fluent\Dusk\Tests\Concerns\InteractsWithElements)
+ [x] Value with value with data set #0
+ [x] Value with value with data set #1
+ [x] Value with value with data set #2
+ [x] Value with value with data set #3
+ [x] Value with value with data set #4
+ [x] Value with value with data set #5
+ [x] Value with value with data set #6
+ [x] Value with value with data set #7
+ [x] Value without value
+
+Element Resolver (Fluent\Dusk\Tests\ElementResolver)
+ [x] Resolve for typing resolves by id
+ [x] Resolve for typing falls back to selectors without id
+ [x] Resolve for selection resolves by id
+ [x] Resolve for selection falls back to selectors without id
+ [x] Resolve for radio selection resolves by id
+ [x] Resolve for radio selection falls back to selectors without id
+ [x] Resolve for radio selection throws exception without id and without value
+ [x] Resolve for checking resolves by id
+ [x] Resolve for checking falls back to selectors without id
+ [x] Resolve for attachment resolves by id
+ [x] Resolve for attachment falls back to selectors without id
+ [x] Resolve for field resolves by id
+ [x] Resolve for field falls back to selectors without id
+ [x] Format correctly formats selectors
+ [x] Find by id with colon
+
+Makes Assertions (Fluent\Dusk\Tests\MakesAssertions)
+ [x] Assert title
+ [x] Assert title contains
+ [x] Assert checked and element is selected
+ [x] Assert checked and element is not selected
+ [x] Assert not checked and element is selected
+ [x] Assert not checked and element is not selected
+ [x] Assert radio selected and element is selected
+ [x] Assert radio selected and element is not selected
+ [x] Assert radio not selected and element is selected
+ [x] Assert radio not selected and element is not selected
+ [x] Assert selected and element is selected
+ [x] Assert selected and element is not selected
+ [x] Assert not selected and element is selected
+ [x] Assert not selected and element is not selected
+ [x] Assert select has options and option exists
+ [x] Assert select has options and option empty
+ [x] Assert select missing options and option exists
+ [x] Assert select missing options and option empty
+ [x] Assert select has option and option exists
+ [x] Assert select has option and option empty
+ [x] Assert select missing option and option exists
+ [x] Assert select missing option and option empty
+ [x] Assert value using supported element
+ [x] Assert value is not using supported element
+ [x] Assert value using unsupported element
+ [x] Assert value is not using unsupported element
+ [x] Assert attribute
+ [x] Assert attribute contains
+ [x] Assert data attribute
+ [x] Assert aria attribute
+ [x] Assert visible and element is displayed
+ [x] Assert visible and element is not displayed
+ [x] Assert present
+ [x] Assert not present
+ [x] Assert missing and element is displayed
+ [x] Assert missing and element is not displayed
+ [x] Assert dialog opened
+ [x] Assert enabled
+ [x] Assert disabled
+ [x] Assert button enabled
+ [x] Assert button disabled
+ [x] Assert focused
+ [x] Assert not focused
+ [x] Assert vue
+ [x] Assert vue with array
+ [x] Assert vue is not
+ [x] Assert vue is not with array
+ [x] Assert vue contains formats vue prop query
+ [x] Assert vue contains
+ [x] Assert vue contains with no result
+ [x] Assert script
+ [x] Assert see
+ [x] Assert dont see
+ [x] Assert see in
+ [x] Assert dont see in
+ [x] Assert see empty text in element with empty text
+ [x] Assert see empty text in element without empty text
+ [x] Assert dont see empty text in element with empty text
+ [x] Assert dont see empty text in element without empty text
+ [x] Assert source has
+ [x] Assert source missing
+ [x] Assert input value
+ [x] Assert input value is not
+
+Makes Url Assertions (Fluent\Dusk\Tests\MakesUrlAssertions)
+ [x] Assert url is
+ [x] Assert scheme is
+ [x] Assert scheme is not
+ [x] Assert host is
+ [x] Assert host is not
+ [x] Assert port is
+ [x] Assert port is not
+ [x] Assert path begins with
+ [x] Assert path is
+ [x] Assert path is not
+ [ ] Assert route is
+ [x] Assert query string has name
+ [x] Assert query string has name value
+ [x] Assert query string has name array value
+ [x] Assert query string missing
+ [x] Assert fragment is
+ [x] Assert fragment begins with
+ [x] Assert fragment is not
+
+Provides Browser (Fluent\Dusk\Tests\ProvidesBrowser)
+ [ ] Capture failures for with data set #0
+ [ ] Store console logs for with data set #0
+ [ ] Data
+
+Waits For Elements (Fluent\Dusk\Tests\WaitsForElements)
+ [x] When available
+ [x] Default wait time
+ [x] Default wait time can be overridden
+ [ ] Wait using
+ [x] Wait using failure
+ [ ] Can wait for location
+ [ ] Can wait for a url location
+ [ ] Can wait for a ssl url location
+ [ ] Can wait for route
+ [ ] Can wait for text
+ [ ] Can wait for text to go missing
+ [ ] Wait until missing
+ [x] Wait for text failure message containing a percent character
+ [ ] Wait for an element to be enabled
+ [ ] Wait for an element to be disabled
+ [x] Wait for text in
+ [ ] Wait for link
+ [ ] Wait until vue
+ [ ] Wait until vue is not
+ [ ] Wait for dialog
+ [ ] Wait for reload
+ [ ] Wait for event
+

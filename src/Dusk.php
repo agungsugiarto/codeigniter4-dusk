@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk;
+namespace Fluent\Dusk;
 
 use InvalidArgumentException;
 
@@ -14,9 +14,9 @@ class Dusk
      */
     public static function register(array $options = [])
     {
-        if (static::duskEnvironment($options)) {
-            app()->register(DuskServiceProvider::class);
-        }
+        // if (static::duskEnvironment($options)) {
+        //     app()->register(DuskServiceProvider::class);
+        // }
     }
 
     /**
@@ -41,6 +41,6 @@ class Dusk
             throw new InvalidArgumentException('Dusk environments must be listed as an array.');
         }
 
-        return app()->environment(...$options['environments']);
+        return ENVIRONMENT === $options['environments'];
     }
 }

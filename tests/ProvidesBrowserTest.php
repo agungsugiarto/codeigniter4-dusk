@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Dusk\Tests;
+namespace Fluent\Dusk\Tests;
 
-use Laravel\Dusk\Concerns\ProvidesBrowser;
+use Fluent\Dusk\Concerns\ProvidesBrowser;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use stdClass;

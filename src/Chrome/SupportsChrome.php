@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk\Chrome;
+namespace Fluent\Dusk\Chrome;
 
 trait SupportsChrome
 {

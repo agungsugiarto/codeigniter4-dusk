@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk;
+namespace Fluent\Dusk;
 
 use BadMethodCallException;
 use Closure;
@@ -119,7 +119,7 @@ class Browser
     /**
      * The element resolver instance.
      *
-     * @var \Laravel\Dusk\ElementResolver
+     * @var \Fluent\Dusk\ElementResolver
      */
     public $resolver;
 
@@ -148,7 +148,7 @@ class Browser
      * Create a browser instance.
      *
      * @param  \Facebook\WebDriver\Remote\RemoteWebDriver  $driver
-     * @param  \Laravel\Dusk\ElementResolver|null  $resolver
+     * @param  \Fluent\Dusk\ElementResolver|null  $resolver
      * @return void
      */
     public function __construct($driver, $resolver = null)
@@ -203,7 +203,7 @@ class Browser
      */
     public function visitRoute($route, $parameters = [])
     {
-        return $this->visit(route($route, $parameters));
+        return $this->visit(route_to($route, $parameters));
     }
 
     /**
@@ -509,7 +509,7 @@ class Browser
     /**
      * Execute a Closure with a scoped browser instance.
      *
-     * @param  string|\Laravel\Dusk\Component  $selector
+     * @param  string|\Fluent\Dusk\Component  $selector
      * @param  \Closure  $callback
      * @return $this
      */
@@ -521,7 +521,7 @@ class Browser
     /**
      * Execute a Closure with a scoped browser instance.
      *
-     * @param  string|\Laravel\Dusk\Component  $selector
+     * @param  string|\Fluent\Dusk\Component  $selector
      * @param  \Closure  $callback
      * @return $this
      */
@@ -547,7 +547,7 @@ class Browser
     /**
      * Execute a Closure outside of the current browser scope.
      *
-     * @param  string|\Laravel\Dusk\Component  $selector
+     * @param  string|\Fluent\Dusk\Component  $selector
      * @param  \Closure  $callback
      * @return $this
      */
@@ -588,8 +588,8 @@ class Browser
     /**
      * Set the current component state.
      *
-     * @param  \Laravel\Dusk\Component  $component
-     * @param  \Laravel\Dusk\ElementResolver  $parentResolver
+     * @param  \Fluent\Dusk\Component  $component
+     * @param  \Fluent\Dusk\ElementResolver  $parentResolver
      * @return void
      */
     public function onComponent($component, $parentResolver)
@@ -666,23 +666,6 @@ class Browser
     public function dump()
     {
         dd($this->driver->getPageSource());
-    }
-
-    /**
-     * Pause execution of test and open Laravel Tinker (PsySH) REPL.
-     *
-     * @return $this
-     */
-    public function tinker()
-    {
-        \Psy\Shell::debug([
-            'browser' => $this,
-            'driver' => $this->driver,
-            'resolver' => $this->resolver,
-            'page' => $this->page,
-        ], $this);
-
-        return $this;
     }
 
     /**

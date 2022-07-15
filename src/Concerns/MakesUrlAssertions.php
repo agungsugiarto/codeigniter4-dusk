@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk\Concerns;
+namespace Fluent\Dusk\Concerns;
 
 use Illuminate\Support\Arr;
 use PHPUnit\Framework\Assert as PHPUnit;
@@ -215,7 +215,7 @@ trait MakesUrlAssertions
      */
     public function assertRouteIs($route, $parameters = [])
     {
-        return $this->assertPathIs(route($route, $parameters, false));
+        return $this->assertPathIs(route_to($route, $parameters));
     }
 
     /**

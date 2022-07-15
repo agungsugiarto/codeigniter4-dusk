@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Dusk\Http\Controllers;
+namespace Fluent\Dusk\Http\Controllers;
 
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Str;
+use Fluent\Auth\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class UserController
 {
@@ -23,7 +23,7 @@ class UserController
         }
 
         return [
-            'id' => $user->getAuthIdentifier(),
+            'id' => $user->getAuthIdColumn(),
             'className' => get_class($user),
         ];
     }
@@ -37,13 +37,13 @@ class UserController
      */
     public function login($userId, $guard = null)
     {
-        $guard = $guard ?: config('auth.defaults.guard');
+        $guard = $guard ?: config('auth')->defaults['guard'];
 
         $provider = Auth::guard($guard)->getProvider();
 
         $user = Str::contains($userId, '@')
-                    ? $provider->retrieveByCredentials(['email' => $userId])
-                    : $provider->retrieveById($userId);
+            ? $provider->findByCredentials(['email' => $userId])
+            : $provider->findById($userId);
 
         Auth::guard($guard)->login($user);
     }
@@ -56,23 +56,8 @@ class UserController
      */
     public function logout($guard = null)
     {
-        $guard = $guard ?: config('auth.defaults.guard');
+        $guard = $guard ?: config('auth')->defaults['guard'];
 
         Auth::guard($guard)->logout();
-
-        Session::forget('password_hash_'.$guard);
-    }
-
-    /**
-     * Get the model for the given guard.
-     *
-     * @param  string  $guard
-     * @return string
-     */
-    protected function modelForGuard($guard)
-    {
-        $provider = config("auth.guards.{$guard}.provider");
-
-        return config("auth.providers.{$provider}.model");
     }
 }

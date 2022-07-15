@@ -1,12 +1,12 @@
 <?php
 
-namespace Laravel\Dusk\Tests;
+namespace Fluent\Dusk\Tests;
 
-use Laravel\Dusk\Chrome\SupportsChrome;
-use Laravel\Dusk\DuskServiceProvider;
+use Fluent\Dusk\Chrome\SupportsChrome;
+use Fluent\Dusk\DuskServiceProvider;
 use Orchestra\Testbench\TestCase;
 
-class SupportsChromeTest extends TestCase
+class SupportsChrome extends TestCase
 {
     use SupportsChrome;
 

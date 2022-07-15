@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk;
+namespace Fluent\Dusk;
 
 use Illuminate\Support\Str;
 

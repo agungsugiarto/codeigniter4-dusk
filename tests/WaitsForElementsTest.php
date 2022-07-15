@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Dusk\Tests;
+namespace Fluent\Dusk\Tests;
 
 use Facebook\WebDriver\Exception\TimeOutException;
-use Laravel\Dusk\Browser;
-use Laravel\Dusk\Tests\Concerns\SwapsUrlGenerator;
+use Fluent\Dusk\Browser;
+use Fluent\Dusk\Tests\Concerns\SwapsUrlGenerator;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use stdClass;

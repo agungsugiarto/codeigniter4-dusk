@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk;
+namespace Fluent\Dusk;
 
 abstract class Page
 {
@@ -14,7 +14,7 @@ abstract class Page
     /**
      * Assert that the browser is on the page.
      *
-     * @param  \Laravel\Dusk\Browser  $browser
+     * @param  \Fluent\Dusk\Browser  $browser
      * @return void
      */
     public function assert(Browser $browser)

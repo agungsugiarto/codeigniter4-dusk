@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Dusk\Chrome;
+namespace Fluent\Dusk\Chrome;
 
-use Laravel\Dusk\OperatingSystem;
+use Fluent\Dusk\OperatingSystem;
 use RuntimeException;
 use Symfony\Component\Process\Process;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk\Tests\Concerns;
+namespace Fluent\Dusk\Tests\Concerns;
 
 use Illuminate\Container\Container;
 use Illuminate\Http\Request;
@@ -11,20 +11,20 @@ trait SwapsUrlGenerator
 {
     protected function swapUrlGenerator()
     {
-        Container::getInstance()->bind('url', function () {
-            return new class(new RouteCollection(), new Request()) extends UrlGenerator
-            {
-                public function route($name, $parameters = [], $absolute = true)
-                {
-                    $route = '/'.$name.'/'.implode('/', $parameters);
+        // Container::getInstance()->bind('url', function () {
+        //     return new class(new RouteCollection(), new Request()) extends UrlGenerator
+        //     {
+        //         public function route($name, $parameters = [], $absolute = true)
+        //         {
+        //             $route = '/'.$name.'/'.implode('/', $parameters);
 
-                    if ($absolute) {
-                        $route = 'http://www.google.com'.$route;
-                    }
+        //             if ($absolute) {
+        //                 $route = 'http://www.google.com'.$route;
+        //             }
 
-                    return $route;
-                }
-            };
-        });
+        //             return $route;
+        //         }
+        //     };
+        // });
     }
 }

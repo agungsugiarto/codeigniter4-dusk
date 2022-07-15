@@ -1,15 +1,15 @@
 <?php
 
-namespace Laravel\Dusk;
+namespace Fluent\Dusk;
 
+use CodeIgniter\Test\CIUnitTestCase;
 use Exception;
 use Facebook\WebDriver\Remote\DesiredCapabilities;
 use Facebook\WebDriver\Remote\RemoteWebDriver;
-use Illuminate\Foundation\Testing\TestCase as FoundationTestCase;
-use Laravel\Dusk\Chrome\SupportsChrome;
-use Laravel\Dusk\Concerns\ProvidesBrowser;
+use Fluent\Dusk\Chrome\SupportsChrome;
+use Fluent\Dusk\Concerns\ProvidesBrowser;
 
-abstract class TestCase extends FoundationTestCase
+abstract class TestCase extends CIUnitTestCase
 {
     use ProvidesBrowser, SupportsChrome;
 
@@ -24,11 +24,11 @@ abstract class TestCase extends FoundationTestCase
 
         Browser::$baseUrl = $this->baseUrl();
 
-        Browser::$storeScreenshotsAt = base_path('tests/Browser/screenshots');
+        Browser::$storeScreenshotsAt = config('paths')->testsDirectory . "/Browser/screenshots";
 
-        Browser::$storeConsoleLogAt = base_path('tests/Browser/console');
+        Browser::$storeConsoleLogAt = config('paths')->testsDirectory . "/Browser/console";
 
-        Browser::$storeSourceAt = base_path('tests/Browser/source');
+        Browser::$storeSourceAt = config('paths')->testsDirectory . "/Browser/source";
 
         Browser::$userResolver = function () {
             return $this->user();
@@ -54,7 +54,7 @@ abstract class TestCase extends FoundationTestCase
      */
     protected function baseUrl()
     {
-        return rtrim(config('app.url'), '/');
+        return rtrim(config('app')->baseUrl, '/');
     }
 
     /**
@@ -67,15 +67,5 @@ abstract class TestCase extends FoundationTestCase
     protected function user()
     {
         throw new Exception('User resolver has not been set.');
-    }
-
-    /**
-     * Determine if the tests are running within Laravel Sail.
-     *
-     * @return bool
-     */
-    protected static function runningInSail()
-    {
-        return isset($_ENV['LARAVEL_SAIL']) && $_ENV['LARAVEL_SAIL'] == '1';
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk\Concerns;
+namespace Fluent\Dusk\Concerns;
 
 use Carbon\Carbon;
 use Closure;
@@ -190,7 +190,7 @@ trait WaitsForElements
      */
     public function waitForRoute($route, $parameters = [], $seconds = null)
     {
-        return $this->waitForLocation(route($route, $parameters, false), $seconds);
+        return $this->waitForLocation(route_to($route, $parameters), $seconds);
     }
 
     /**

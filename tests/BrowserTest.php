@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Dusk\Tests;
+namespace Fluent\Dusk\Tests;
 
 use Facebook\WebDriver\Remote\WebDriverBrowserType;
-use Laravel\Dusk\Browser;
-use Laravel\Dusk\Page;
+use Fluent\Dusk\Browser;
+use Fluent\Dusk\Page;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use stdClass;

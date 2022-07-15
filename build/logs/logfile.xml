@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="162" assertions="365" errors="24" warnings="0" failures="1" skipped="0" time="14.163699">
+    <testsuite name="CodeIgniter4 Dusk" tests="162" assertions="365" errors="24" warnings="0" failures="1" skipped="0" time="14.163699">
+      <testsuite name="Fluent\Dusk\Tests\BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" tests="18" assertions="28" errors="5" warnings="0" failures="0" skipped="0" time="0.066434">
+        <testcase name="test_visit" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="32" assertions="0" time="0.027934">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\BrowserTest::test_visit
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php:32
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_blank_page" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="42" assertions="0" time="0.000528">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\BrowserTest::test_blank_page
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php:42
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_visit_with_page_object" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="52" assertions="3" time="0.000992"/>
+        <testcase name="test_on_method_sets_current_page" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="66" assertions="3" time="0.000162"/>
+        <testcase name="test_refresh_method" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="79" assertions="0" time="0.000712">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\BrowserTest::test_refresh_method
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php:79
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_with_method" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="88" assertions="2" time="0.000727"/>
+        <testcase name="test_with_method_with_page" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="99" assertions="4" time="0.000882"/>
+        <testcase name="test_within_method" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="118" assertions="2" time="0.000488"/>
+        <testcase name="test_within_method_with_page" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="129" assertions="4" time="0.001331"/>
+        <testcase name="test_elsewhere_method" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="148" assertions="2" time="0.000442"/>
+        <testcase name="test_page_macros" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="161" assertions="1" time="0.000502"/>
+        <testcase name="test_retrieve_console" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="174" assertions="0" time="0.011364">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\BrowserTest::test_retrieve_console
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php:174
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_disable_console" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="185" assertions="0" time="0.003941">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\BrowserTest::test_disable_console
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php:185
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_screenshot" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="195" assertions="1" time="0.011161"/>
+        <testcase name="test_screenshot_in_subdirectory" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="210" assertions="1" time="0.001973"/>
+        <testcase name="test_can_disable_fit_on_failure" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="225" assertions="1" time="0.000308"/>
+        <testcase name="test_can_enable_fit_on_failure" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="233" assertions="1" time="0.000267"/>
+        <testcase name="test_source_code_can_be_stored" class="Fluent\Dusk\Tests\BrowserTest" classname="Fluent.Dusk.Tests.BrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\BrowserTest.php" line="241" assertions="3" time="0.002721"/>
+      </testsuite>
+      <testsuite name="Fluent\Dusk\Tests\ChromeProcessTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ChromeProcessTest.php" tests="7" assertions="13" errors="0" warnings="0" failures="0" skipped="0" time="0.009099">
+        <testcase name="test_build_process_with_custom_driver" class="Fluent\Dusk\Tests\ChromeProcessTest" classname="Fluent.Dusk.Tests.ChromeProcessTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ChromeProcessTest.php" line="12" assertions="2" time="0.003619"/>
+        <testcase name="test_build_process_for_windows" class="Fluent\Dusk\Tests\ChromeProcessTest" classname="Fluent.Dusk.Tests.ChromeProcessTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ChromeProcessTest.php" line="22" assertions="2" time="0.000724"/>
+        <testcase name="test_build_process_for_darwin" class="Fluent\Dusk\Tests\ChromeProcessTest" classname="Fluent.Dusk.Tests.ChromeProcessTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ChromeProcessTest.php" line="30" assertions="2" time="0.000326"/>
+        <testcase name="test_build_process_for_darwin_intel" class="Fluent\Dusk\Tests\ChromeProcessTest" classname="Fluent.Dusk.Tests.ChromeProcessTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ChromeProcessTest.php" line="38" assertions="2" time="0.000396"/>
+        <testcase name="test_build_process_for_darwin_arm" class="Fluent\Dusk\Tests\ChromeProcessTest" classname="Fluent.Dusk.Tests.ChromeProcessTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ChromeProcessTest.php" line="46" assertions="2" time="0.000293"/>
+        <testcase name="test_build_process_for_linux" class="Fluent\Dusk\Tests\ChromeProcessTest" classname="Fluent.Dusk.Tests.ChromeProcessTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ChromeProcessTest.php" line="54" assertions="2" time="0.000475"/>
+        <testcase name="test_invalid_path" class="Fluent\Dusk\Tests\ChromeProcessTest" classname="Fluent.Dusk.Tests.ChromeProcessTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ChromeProcessTest.php" line="62" assertions="1" time="0.003267"/>
+      </testsuite>
+      <testsuite name="Fluent\Dusk\Tests\ComponentTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ComponentTest.php" tests="7" assertions="14" errors="0" warnings="0" failures="0" skipped="0" time="0.003037">
+        <testcase name="test_within_method_triggers_assertion" class="Fluent\Dusk\Tests\ComponentTest" classname="Fluent.Dusk.Tests.ComponentTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ComponentTest.php" line="19" assertions="2" time="0.000291"/>
+        <testcase name="test_resolver_prefix" class="Fluent\Dusk\Tests\ComponentTest" classname="Fluent.Dusk.Tests.ComponentTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ComponentTest.php" line="33" assertions="3" time="0.000367"/>
+        <testcase name="test_component_macros" class="Fluent\Dusk\Tests\ComponentTest" classname="Fluent.Dusk.Tests.ComponentTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ComponentTest.php" line="51" assertions="2" time="0.000438"/>
+        <testcase name="test_component_elements" class="Fluent\Dusk\Tests\ComponentTest" classname="Fluent.Dusk.Tests.ComponentTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ComponentTest.php" line="67" assertions="2" time="0.000965"/>
+        <testcase name="test_root_selector_can_be_dusk_hook" class="Fluent\Dusk\Tests\ComponentTest" classname="Fluent.Dusk.Tests.ComponentTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ComponentTest.php" line="88" assertions="1" time="0.000341"/>
+        <testcase name="test_root_selector_can_be_element_alias" class="Fluent\Dusk\Tests\ComponentTest" classname="Fluent.Dusk.Tests.ComponentTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ComponentTest.php" line="101" assertions="1" time="0.000334"/>
+        <testcase name="test_component_overrides_page_macros" class="Fluent\Dusk\Tests\ComponentTest" classname="Fluent.Dusk.Tests.ComponentTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ComponentTest.php" line="114" assertions="3" time="0.000301"/>
+      </testsuite>
+      <testsuite name="Fluent\Dusk\Tests\Concerns\InteractsWithElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\Concerns\InteractsWithElementsTest.php" tests="9" assertions="28" errors="0" warnings="0" failures="0" skipped="0" time="0.025150">
+        <testsuite name="Fluent\Dusk\Tests\Concerns\InteractsWithElementsTest::testValueWithValue" tests="8" assertions="24" errors="0" warnings="0" failures="0" skipped="0" time="0.023369">
+          <testcase name="testValueWithValue with data set #0" class="Fluent\Dusk\Tests\Concerns\InteractsWithElementsTest" classname="Fluent.Dusk.Tests.Concerns.InteractsWithElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\Concerns\InteractsWithElementsTest.php" line="85" assertions="3" time="0.019804"/>
+          <testcase name="testValueWithValue with data set #1" class="Fluent\Dusk\Tests\Concerns\InteractsWithElementsTest" classname="Fluent.Dusk.Tests.Concerns.InteractsWithElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\Concerns\InteractsWithElementsTest.php" line="85" assertions="3" time="0.000591"/>
+          <testcase name="testValueWithValue with data set #2" class="Fluent\Dusk\Tests\Concerns\InteractsWithElementsTest" classname="Fluent.Dusk.Tests.Concerns.InteractsWithElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\Concerns\InteractsWithElementsTest.php" line="85" assertions="3" time="0.000476"/>
+          <testcase name="testValueWithValue with data set #3" class="Fluent\Dusk\Tests\Concerns\InteractsWithElementsTest" classname="Fluent.Dusk.Tests.Concerns.InteractsWithElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\Concerns\InteractsWithElementsTest.php" line="85" assertions="3" time="0.000977"/>
+          <testcase name="testValueWithValue with data set #4" class="Fluent\Dusk\Tests\Concerns\InteractsWithElementsTest" classname="Fluent.Dusk.Tests.Concerns.InteractsWithElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\Concerns\InteractsWithElementsTest.php" line="85" assertions="3" time="0.000483"/>
+          <testcase name="testValueWithValue with data set #5" class="Fluent\Dusk\Tests\Concerns\InteractsWithElementsTest" classname="Fluent.Dusk.Tests.Concerns.InteractsWithElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\Concerns\InteractsWithElementsTest.php" line="85" assertions="3" time="0.000424"/>
+          <testcase name="testValueWithValue with data set #6" class="Fluent\Dusk\Tests\Concerns\InteractsWithElementsTest" classname="Fluent.Dusk.Tests.Concerns.InteractsWithElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\Concerns\InteractsWithElementsTest.php" line="85" assertions="3" time="0.000343"/>
+          <testcase name="testValueWithValue with data set #7" class="Fluent\Dusk\Tests\Concerns\InteractsWithElementsTest" classname="Fluent.Dusk.Tests.Concerns.InteractsWithElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\Concerns\InteractsWithElementsTest.php" line="85" assertions="3" time="0.000271"/>
+        </testsuite>
+        <testcase name="testValueWithoutValue" class="Fluent\Dusk\Tests\Concerns\InteractsWithElementsTest" classname="Fluent.Dusk.Tests.Concerns.InteractsWithElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\Concerns\InteractsWithElementsTest.php" line="98" assertions="4" time="0.001781"/>
+      </testsuite>
+      <testsuite name="Fluent\Dusk\Tests\ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" tests="15" assertions="22" errors="0" warnings="0" failures="0" skipped="0" time="0.008615">
+        <testcase name="test_resolve_for_typing_resolves_by_id" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="22" assertions="1" time="0.003249"/>
+        <testcase name="test_resolve_for_typing_falls_back_to_selectors_without_id" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="30" assertions="1" time="0.000558"/>
+        <testcase name="test_resolve_for_selection_resolves_by_id" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="38" assertions="1" time="0.000283"/>
+        <testcase name="test_resolve_for_selection_falls_back_to_selectors_without_id" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="46" assertions="1" time="0.000289"/>
+        <testcase name="test_resolve_for_radio_selection_resolves_by_id" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="54" assertions="1" time="0.000382"/>
+        <testcase name="test_resolve_for_radio_selection_falls_back_to_selectors_without_id" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="62" assertions="1" time="0.000258"/>
+        <testcase name="test_resolve_for_radio_selection_throws_exception_without_id_and_without_value" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="70" assertions="2" time="0.000455"/>
+        <testcase name="test_resolve_for_checking_resolves_by_id" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="81" assertions="1" time="0.000459"/>
+        <testcase name="test_resolve_for_checking_falls_back_to_selectors_without_id" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="89" assertions="1" time="0.000414"/>
+        <testcase name="test_resolve_for_attachment_resolves_by_id" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="97" assertions="1" time="0.000369"/>
+        <testcase name="test_resolve_for_attachment_falls_back_to_selectors_without_id" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="105" assertions="1" time="0.000273"/>
+        <testcase name="test_resolve_for_field_resolves_by_id" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="113" assertions="1" time="0.000368"/>
+        <testcase name="test_resolve_for_field_falls_back_to_selectors_without_id" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="121" assertions="1" time="0.000414"/>
+        <testcase name="test_format_correctly_formats_selectors" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="129" assertions="7" time="0.000396"/>
+        <testcase name="test_find_by_id_with_colon" class="Fluent\Dusk\Tests\ElementResolverTest" classname="Fluent.Dusk.Tests.ElementResolverTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ElementResolverTest.php" line="152" assertions="1" time="0.000448"/>
+      </testsuite>
+      <testsuite name="Fluent\Dusk\Tests\MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" tests="63" assertions="170" errors="0" warnings="0" failures="0" skipped="0" time="0.102356">
+        <testcase name="test_assert_title" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="19" assertions="3" time="0.002516"/>
+        <testcase name="test_assert_title_contains" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="40" assertions="3" time="0.000756"/>
+        <testcase name="test_assert_checked_and_element_is_selected" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="61" assertions="1" time="0.007003"/>
+        <testcase name="test_assert_checked_and_element_is_not_selected" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="78" assertions="2" time="0.001464"/>
+        <testcase name="test_assert_not_checked_and_element_is_selected" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="103" assertions="2" time="0.000709"/>
+        <testcase name="test_assert_not_checked_and_element_is_not_selected" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="128" assertions="1" time="0.000785"/>
+        <testcase name="test_assert_radio_selected_and_element_is_selected" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="145" assertions="1" time="0.000950"/>
+        <testcase name="test_assert_radio_selected_and_element_is_not_selected" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="162" assertions="2" time="0.001103"/>
+        <testcase name="test_assert_radio_not_selected_and_element_is_selected" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="187" assertions="2" time="0.000754"/>
+        <testcase name="test_assert_radio_not_selected_and_element_is_not_selected" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="212" assertions="1" time="0.000526"/>
+        <testcase name="test_assert_selected_and_element_is_selected" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="229" assertions="1" time="0.000474"/>
+        <testcase name="test_assert_selected_and_element_is_not_selected" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="246" assertions="2" time="0.000443"/>
+        <testcase name="test_assert_not_selected_and_element_is_selected" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="270" assertions="2" time="0.000621"/>
+        <testcase name="test_assert_not_selected_and_element_is_not_selected" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="295" assertions="1" time="0.000726"/>
+        <testcase name="test_assert_select_has_options_and_option_exists" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="312" assertions="1" time="0.000839"/>
+        <testcase name="test_assert_select_has_options_and_option_empty" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="329" assertions="2" time="0.000283"/>
+        <testcase name="test_assert_select_missing_options_and_option_exists" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="349" assertions="2" time="0.001893"/>
+        <testcase name="test_assert_select_missing_options_and_option_empty" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="373" assertions="1" time="0.000629"/>
+        <testcase name="test_assert_select_has_option_and_option_exists" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="386" assertions="1" time="0.000972"/>
+        <testcase name="test_assert_select_has_option_and_option_empty" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="403" assertions="2" time="0.000418"/>
+        <testcase name="test_assert_select_missing_option_and_option_exists" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="423" assertions="2" time="0.000421"/>
+        <testcase name="test_assert_select_missing_option_and_option_empty" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="447" assertions="1" time="0.000318"/>
+        <testcase name="test_assert_value_using_supported_element" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="460" assertions="5" time="0.000673"/>
+        <testcase name="test_assert_value_is_not_using_supported_element" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="486" assertions="5" time="0.002995"/>
+        <testcase name="test_assert_value_using_unsupported_element" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="512" assertions="2" time="0.003683"/>
+        <testcase name="test_assert_value_is_not_using_unsupported_element" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="535" assertions="2" time="0.000735"/>
+        <testcase name="test_assert_attribute" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="558" assertions="7" time="0.001318"/>
+        <testcase name="test_assert_attribute_contains" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="598" assertions="7" time="0.003082"/>
+        <testcase name="test_assert_data_attribute" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="638" assertions="7" time="0.001664"/>
+        <testcase name="test_assert_aria_attribute" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="678" assertions="7" time="0.002177"/>
+        <testcase name="test_assert_visible_and_element_is_displayed" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="718" assertions="1" time="0.000760"/>
+        <testcase name="test_assert_visible_and_element_is_not_displayed" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="734" assertions="2" time="0.000526"/>
+        <testcase name="test_assert_present" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="757" assertions="3" time="0.000513"/>
+        <testcase name="test_assert_not_present" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="784" assertions="3" time="0.001091"/>
+        <testcase name="test_assert_missing_and_element_is_displayed" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="815" assertions="2" time="0.002372"/>
+        <testcase name="test_assert_missing_and_element_is_not_displayed" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="838" assertions="1" time="0.002308"/>
+        <testcase name="test_assert_dialog_opened" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="854" assertions="3" time="0.009370"/>
+        <testcase name="test_assert_enabled" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="875" assertions="3" time="0.007015"/>
+        <testcase name="test_assert_disabled" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="900" assertions="3" time="0.000873"/>
+        <testcase name="test_assert_button_enabled" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="925" assertions="4" time="0.003903"/>
+        <testcase name="test_assert_button_disabled" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="944" assertions="4" time="0.001324"/>
+        <testcase name="test_assert_focused" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="964" assertions="3" time="0.010023"/>
+        <testcase name="test_assert_not_focused" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="990" assertions="3" time="0.001094"/>
+        <testcase name="test_assert_vue" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1016" assertions="3" time="0.000845"/>
+        <testcase name="test_assert_vue_with_array" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1051" assertions="3" time="0.000496"/>
+        <testcase name="test_assert_vue_is_not" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1074" assertions="3" time="0.000721"/>
+        <testcase name="test_assert_vue_is_not_with_array" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1109" assertions="3" time="0.001192"/>
+        <testcase name="test_assert_vue_contains_formats_vue_prop_query" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1132" assertions="2" time="0.005102"/>
+        <testcase name="test_assert_vue_contains" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1155" assertions="5" time="0.000690"/>
+        <testcase name="test_assert_vue_contains_with_no_result" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1178" assertions="2" time="0.000364"/>
+        <testcase name="test_assert_script" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1199" assertions="6" time="0.000536"/>
+        <testcase name="test_assert_see" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1230" assertions="3" time="0.000509"/>
+        <testcase name="test_assert_dont_see" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1255" assertions="3" time="0.002063"/>
+        <testcase name="test_assert_see_in" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1280" assertions="3" time="0.000782"/>
+        <testcase name="test_assert_dont_see_in" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1305" assertions="3" time="0.001300"/>
+        <testcase name="test_assert_see_empty_text_in_element_with_empty_text" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1330" assertions="1" time="0.000917"/>
+        <testcase name="test_assert_see_empty_text_in_element_without_empty_text" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1346" assertions="2" time="0.001285"/>
+        <testcase name="test_assert_dont_see_empty_text_in_element_with_empty_text" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1369" assertions="2" time="0.000820"/>
+        <testcase name="test_assert_dont_see_empty_text_in_element_without_empty_text" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1392" assertions="1" time="0.000394"/>
+        <testcase name="test_assert_source_has" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1408" assertions="3" time="0.000292"/>
+        <testcase name="test_assert_source_missing" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1429" assertions="3" time="0.000446"/>
+        <testcase name="test_assert_input_value" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1450" assertions="3" time="0.000874"/>
+        <testcase name="test_assert_input_value_is_not" class="Fluent\Dusk\Tests\MakesAssertionsTest" classname="Fluent.Dusk.Tests.MakesAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesAssertionsTest.php" line="1477" assertions="3" time="0.000628"/>
+      </testsuite>
+      <testsuite name="Fluent\Dusk\Tests\MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" tests="18" assertions="83" errors="0" warnings="0" failures="1" skipped="0" time="0.014948">
+        <testcase name="test_assert_url_is" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="21" assertions="5" time="0.003746"/>
+        <testcase name="test_assert_scheme_is" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="45" assertions="6" time="0.000775"/>
+        <testcase name="test_assert_scheme_is_not" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="73" assertions="4" time="0.000543"/>
+        <testcase name="test_assert_host_is" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="97" assertions="5" time="0.000468"/>
+        <testcase name="test_assert_host_is_not" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="123" assertions="5" time="0.000461"/>
+        <testcase name="test_assert_port_is" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="149" assertions="5" time="0.000402"/>
+        <testcase name="test_assert_port_is_not" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="175" assertions="5" time="0.000466"/>
+        <testcase name="test_assert_path_begins_with" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="201" assertions="3" time="0.000583"/>
+        <testcase name="test_assert_path_is" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="222" assertions="7" time="0.000500"/>
+        <testcase name="test_assert_path_is_not" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="250" assertions="3" time="0.000496"/>
+        <testcase name="test_assert_route_is" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="271" assertions="1" time="0.000483">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Fluent\Dusk\Tests\MakesUrlAssertionsTest::test_assert_route_is
+Actual path [/test/1] does not equal expected path [].
+Failed asserting that '/test/1' matches PCRE pattern "/^$/u".
+
+C:\laragon\www\projects\codeigniter4-dusk\src\Concerns\MakesUrlAssertions.php:185
+C:\laragon\www\projects\codeigniter4-dusk\src\Concerns\MakesUrlAssertions.php:218
+C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php:281
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</failure>
+        </testcase>
+        <testcase name="test_assert_query_string_has_name" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="294" assertions="7" time="0.001734"/>
+        <testcase name="test_assert_query_string_has_name_value" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="327" assertions="7" time="0.000965"/>
+        <testcase name="test_assert_query_string_has_name_array_value" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="348" assertions="7" time="0.000667"/>
+        <testcase name="test_assert_query_string_missing" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="369" assertions="4" time="0.000754"/>
+        <testcase name="test_assert_fragment_is" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="392" assertions="3" time="0.000635"/>
+        <testcase name="test_assert_fragment_begins_with" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="413" assertions="3" time="0.000503"/>
+        <testcase name="test_assert_fragment_is_not" class="Fluent\Dusk\Tests\MakesUrlAssertionsTest" classname="Fluent.Dusk.Tests.MakesUrlAssertionsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\MakesUrlAssertionsTest.php" line="434" assertions="3" time="0.000768"/>
+      </testsuite>
+      <testsuite name="Fluent\Dusk\Tests\ProvidesBrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ProvidesBrowserTest.php" tests="3" assertions="0" errors="3" warnings="0" failures="0" skipped="0" time="0.002790">
+        <testsuite name="Fluent\Dusk\Tests\ProvidesBrowserTest::test_capture_failures_for" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.002307">
+          <testcase name="test_capture_failures_for with data set #0" class="Fluent\Dusk\Tests\ProvidesBrowserTest" classname="Fluent.Dusk.Tests.ProvidesBrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ProvidesBrowserTest.php" line="22" assertions="0" time="0.002307">
+            <error type="Mockery\Exception\NoMatchingExpectationException">Fluent\Dusk\Tests\ProvidesBrowserTest::test_capture_failures_for with data set #0 ('foo')
+Mockery\Exception\NoMatchingExpectationException: No matching handler found for Mockery_0_stdClass::screenshot('failure-Fluent_Dusk_Tests_ProvidesBrowserTest_test_capture_failures_for-0'). Either the method was unexpected or its arguments matched no expected argument list for this method&#13;
+&#13;
+
+
+C:\laragon\www\projects\codeigniter4-dusk\vendor\mockery\mockery\library\Mockery\ExpectationDirector.php:92
+C:\laragon\www\projects\codeigniter4-dusk\src\Concerns\ProvidesBrowser.php:149
+C:\laragon\www\projects\codeigniter4-dusk\vendor\illuminate\collections\Traits\EnumeratesValues.php:245
+C:\laragon\www\projects\codeigniter4-dusk\src\Concerns\ProvidesBrowser.php:150
+C:\laragon\www\projects\codeigniter4-dusk\tests\ProvidesBrowserTest.php:30
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+          </testcase>
+        </testsuite>
+        <testsuite name="Fluent\Dusk\Tests\ProvidesBrowserTest::test_store_console_logs_for" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.000371">
+          <testcase name="test_store_console_logs_for with data set #0" class="Fluent\Dusk\Tests\ProvidesBrowserTest" classname="Fluent.Dusk.Tests.ProvidesBrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ProvidesBrowserTest.php" line="36" assertions="0" time="0.000371">
+            <error type="Mockery\Exception\NoMatchingExpectationException">Fluent\Dusk\Tests\ProvidesBrowserTest::test_store_console_logs_for with data set #0 ('foo')
+Mockery\Exception\NoMatchingExpectationException: No matching handler found for Mockery_0_stdClass::storeConsoleLog('Fluent_Dusk_Tests_ProvidesBrowserTest_test_store_console_logs_for-0'). Either the method was unexpected or its arguments matched no expected argument list for this method&#13;
+&#13;
+
+
+C:\laragon\www\projects\codeigniter4-dusk\vendor\mockery\mockery\library\Mockery\ExpectationDirector.php:92
+C:\laragon\www\projects\codeigniter4-dusk\src\Concerns\ProvidesBrowser.php:164
+C:\laragon\www\projects\codeigniter4-dusk\vendor\illuminate\collections\Traits\EnumeratesValues.php:245
+C:\laragon\www\projects\codeigniter4-dusk\src\Concerns\ProvidesBrowser.php:165
+C:\laragon\www\projects\codeigniter4-dusk\tests\ProvidesBrowserTest.php:44
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+          </testcase>
+        </testsuite>
+        <testcase name="testData" class="Fluent\Dusk\Tests\ProvidesBrowserTest" classname="Fluent.Dusk.Tests.ProvidesBrowserTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\ProvidesBrowserTest.php" line="47" assertions="0" time="0.000112">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\ProvidesBrowserTest::testData
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\ProvidesBrowserTest.php:47
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Fluent\Dusk\Tests\WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" tests="22" assertions="7" errors="16" warnings="0" failures="0" skipped="0" time="13.931270">
+        <testcase name="test_when_available" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="21" assertions="2" time="5.258931"/>
+        <testcase name="test_default_wait_time" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="49" assertions="1" time="2.171460"/>
+        <testcase name="test_default_wait_time_can_be_overridden" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="67" assertions="1" time="0.107411"/>
+        <testcase name="test_wait_using" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="85" assertions="0" time="0.107389">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_wait_using
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:85
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_wait_using_failure" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="94" assertions="1" time="1.196599"/>
+        <testcase name="test_can_wait_for_location" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="105" assertions="0" time="0.106789">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_can_wait_for_location
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:105
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_can_wait_for_a_url_location" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="117" assertions="0" time="0.105939">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_can_wait_for_a_url_location
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:117
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_can_wait_for_a_ssl_url_location" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="129" assertions="0" time="0.107527">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_can_wait_for_a_ssl_url_location
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:129
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_can_wait_for_route" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="141" assertions="0" time="2.173523">
+          <error type="Facebook\WebDriver\Exception\TimeoutException">Fluent\Dusk\Tests\WaitsForElementsTest::test_can_wait_for_route
+Facebook\WebDriver\Exception\TimeoutException: Waited 2 seconds for location [].
+
+C:\laragon\www\projects\codeigniter4-dusk\src\Concerns\WaitsForElements.php:408
+C:\laragon\www\projects\codeigniter4-dusk\src\Concerns\WaitsForElements.php:252
+C:\laragon\www\projects\codeigniter4-dusk\src\Concerns\WaitsForElements.php:178
+C:\laragon\www\projects\codeigniter4-dusk\src\Concerns\WaitsForElements.php:193
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:152
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_can_wait_for_text" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="155" assertions="0" time="0.104060">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_can_wait_for_text
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:155
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_can_wait_for_text_to_go_missing" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="168" assertions="0" time="0.326538">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_can_wait_for_text_to_go_missing
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:168
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_wait_until_missing" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="183" assertions="0" time="0.211482">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_wait_until_missing
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:183
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_wait_for_text_failure_message_containing_a_percent_character" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="198" assertions="1" time="1.193224"/>
+        <testcase name="test_wait_for_an_element_to_be_enabled" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="216" assertions="0" time="0.106899">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_wait_for_an_element_to_be_enabled
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:216
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_wait_for_an_element_to_be_disabled" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="229" assertions="0" time="0.107648">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_wait_for_an_element_to_be_disabled
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:229
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_wait_for_text_in" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="242" assertions="1" time="0.109847"/>
+        <testcase name="test_wait_for_link" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="256" assertions="0" time="0.108774">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_wait_for_link
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:256
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_wait_until_vue" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="279" assertions="0" time="0.107463">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_wait_until_vue
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:279
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_wait_until_vue_is_not" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="292" assertions="0" time="0.109196">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_wait_until_vue_is_not
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:292
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_wait_for_dialog" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="305" assertions="0" time="0.002350">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_wait_for_dialog
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:305
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_wait_for_reload" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="316" assertions="0" time="0.101419">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_wait_for_reload
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:316
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+        <testcase name="test_wait_for_event" class="Fluent\Dusk\Tests\WaitsForElementsTest" classname="Fluent.Dusk.Tests.WaitsForElementsTest" file="C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php" line="328" assertions="0" time="0.006803">
+          <error type="PHPUnit\Framework\RiskyTestError">Fluent\Dusk\Tests\WaitsForElementsTest::test_wait_for_event
+This test did not perform any assertions
+
+C:\laragon\www\projects\codeigniter4-dusk\tests\WaitsForElementsTest.php:328
+
+phpvfscomposer://C:\laragon\www\projects\codeigniter4-dusk\vendor\phpunit\phpunit\phpunit:97</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,16 +1,16 @@
 <?php
 
-namespace Laravel\Dusk\Tests\Concerns;
+namespace Fluent\Dusk\Tests\Concerns;
 
 use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\Remote\RemoteWebElement;
-use Laravel\Dusk\Concerns\InteractsWithElements;
-use Laravel\Dusk\ElementResolver;
+use Fluent\Dusk\Concerns\InteractsWithElements;
+use Fluent\Dusk\ElementResolver;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass \Laravel\Dusk\Concerns\InteractsWithElements
+ * @coversDefaultClass \Fluent\Dusk\Concerns\InteractsWithElements
  */
 class InteractsWithElementsTest extends TestCase
 {

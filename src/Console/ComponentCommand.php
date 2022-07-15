@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk\Console;
+namespace Fluent\Dusk\Console;
 
 use Illuminate\Console\GeneratorCommand;
 use Illuminate\Support\Str;

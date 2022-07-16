@@ -2,11 +2,11 @@
 
 namespace Fluent\Dusk\Http\Controllers;
 
+use CodeIgniter\Controller;
 use Illuminate\Support\Str;
 use Fluent\Auth\Facades\Auth;
-use Illuminate\Support\Facades\Session;
 
-class UserController
+class UserController extends Controller
 {
     /**
      * Retrieve the authenticated user identifier and class name.
